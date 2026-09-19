@@ -13,8 +13,8 @@
 - [X] T007 [US3] Ligar pausa/retomada/decline com estado privado e retry novoID em agente/server.py.
 ## Phase6 Polish
 - [X] T008 Rodar validador36 e testes extra, registrar docs/validacao.md e logs.
-- [ ] T009 Redigir quatro seções obrigatóriasREADME, testar clone limpo seguindo comandos.
-- [ ] T010 Converge, revisar diff/integridade/segredos e publicar feature após testes.
+- [X] T009 Redigir quatro seções obrigatóriasREADME, testar clone limpo seguindo comandos.
+- [X] T010 Converge, revisar diff/integridade/segredos e publicar feature após testes.
 ## Dependencies
 T001→T002→T003→T004→T005→T006→T007→T008→T009→T010. Arquivos isolados permitiriam MCP e agente paralelos após contrato; execução atual sequencial por agenteexclusivo.
 ## Strategy

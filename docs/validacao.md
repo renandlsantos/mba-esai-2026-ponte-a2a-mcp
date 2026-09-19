@@ -15,3 +15,11 @@ Em2026-09-19, Python3.11.16, MCP2.2.0; uv.lock fixado.
 - SHA256 dos diretórios congelados preservados, testes de integridade passam.
 
 Processos dos testes usam portas livres e são encerrados por PIDpróprio. Segredos sintéticos em memória, não salvos. MCPInspector não foi aberto; os testes exercitam o wire real equivalente e todas as36verificações. Main/entrega acadêmica aguardam integração coordenada, não foram realizadas.
+
+## Clone limpo
+
+Clone remoto da branch no commit cf5da69: `uv sync --frozen`, `uv run pytest -q` e `git status --short` passaram. **9passed**, incluindo36checks oficiais, sem alterações de trabalho após testes. Evidência em clone-limpo.json.
+
+## Convergência
+
+8requisitos, 4critérios de sucesso, cenários de aceite, decisões do plano e5princípios revisados: nenhuma lacuna de implementação. Skills sem hooks configurados. Integração da branch em main e submissão permanecem etapa coordenada posterior, conforme autorização.

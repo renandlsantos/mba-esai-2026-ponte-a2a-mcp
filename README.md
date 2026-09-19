@@ -2,7 +2,7 @@
 
 Dois processos determinísticos para reservas da Hill Valley Tech. O servidor MCP aplica as regras de salas; o agente traduz o protocolo MCP em Tasks A2A. Não há LLM no caminho de execução.
 
-**Validação: 36/36 verificações oficiais e 9 testes de integração passaram.** A entrega está na branch `feature/sdd-fase-308`, aguardando revisão/merge coordenado para `main` e envio na plataforma.
+**Validação: 36/36 verificações oficiais e 9 testes de integração passaram, inclusive em [clone limpo do GitHub](docs/clone-limpo.json).** A entrega está na branch `feature/sdd-fase-308`, aguardando revisão/merge coordenado para `main` e envio na plataforma.
 
 ## Como rodar
 
