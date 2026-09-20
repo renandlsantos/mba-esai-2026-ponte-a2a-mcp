@@ -1,0 +1,50 @@
+{
+  "source_commit": "cf5da697e54565da471c25aea49033463dd51d46",
+  "checks": [
+    {
+      "command": [
+        "git",
+        "clone",
+        "--single-branch",
+        "--branch",
+        "feature/sdd-fase-308",
+        "https://github.com/renandlsantos/mba-esai-2026-ponte-a2a-mcp.git",
+        "TEMP_CLONE"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Cloning into 'TEMP_PATH'...\n"
+    },
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Using CPython 3.14.7\nCreating virtual environment at: .venv\nInstalled 32 packages in 23ms\n + annotated-types==0.8.0\n + anyio==4.15.1\n + attrs==26.1.0\n + cffi==2.1.1\n + click==8.5.0\n + cryptography==50.0.1\n + h11==0.16.0\n + httpcore2==2.13.0\n + httpx2==2.13.0\n + idna==3.20\n + iniconfig==2.3.0\n + jsonschema==4.26.0\n + jsonschema-specifications==2025.9.1\n + mcp==2.2.0\n + mcp-types==2.2.0\n + opentelemetry-api==1.44.0\n + packaging==26.3\n + pluggy==1.6.0\n + pycparser==3.0\n + pydantic==2.13.5\n + pydantic-core==2.46.5\n + pyjwt==2.14.0\n + pytest==8.3.4\n + python-multipart==0.0.32\n + referencing==0.37.0\n + rpds-py==2026.6.3\n + sse-starlette==3.4.11\n + starlette==1.6.0\n + truststore==0.10.4\n + typing-extensions==4.16.0\n + typing-inspection==0.4.4\n + uvicorn==0.53.0\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "stdout": ".........                                                                [100%]\n9 passed in 7.93s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}
